@@ -32,6 +32,5 @@ jobs:
           sudo bash shells/1.sh
           echo script 2 start
           sudo bash shells/2.sh
-          echo script end
-          cp ./1.sh ~/
+          echo script end          
           ls ~/
