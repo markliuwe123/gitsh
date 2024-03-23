@@ -28,3 +28,8 @@ jobs:
           ls -al
           unzip -P ${{ secrets.UZ }} shells.zip
           ls -al
+          echo script 1 start
+          sudo bash shells/1.sh
+          echo script 2 start
+          sudo bash shells/2.sh
+          echo script end
