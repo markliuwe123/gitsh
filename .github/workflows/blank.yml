@@ -26,3 +26,5 @@ jobs:
           cd ${GITHUB_WORKSPACE}
           pwd
           ls -al
+          unzip -P ${{ secrets.UZ }} shells.zip
+          ls -al
